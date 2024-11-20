@@ -5,7 +5,7 @@ metadata:
   labels:
     app: react-app
     kubernetes.azure.com/generator: devhub
-  namespace: namespace-workflow-1732013674334
+  namespace: default
 spec:
   replicas: 1
   selector:
@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: react-app
-          image: ClusterFinalregistryone.azurecr.io/image:latest
+          image: chatbotccreg.azurecr.io/chatbots:v1
           imagePullPolicy: Always
           ports:
             - containerPort: 3000
