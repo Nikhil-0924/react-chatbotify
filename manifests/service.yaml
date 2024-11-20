@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: react-app
-  namespace: namespace-workflow-1732013674334
+  namespace: default
   labels:
     kubernetes.azure.com/generator: devhub
 spec:
