@@ -6,7 +6,7 @@ metadata:
   labels:
     kubernetes.azure.com/generator: devhub
 spec:
-  type: LoadBalancer
+  type: NodePort
   selector:
     app: react-app
   ports:
